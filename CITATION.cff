@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Continuum-LOB: Physics-Informed Neural Operators for Optimal Execution in Stochastic Order-Book Fluids"
+authors:
+  - family-names: Khondaker
+    given-names: Nabil
+version: 0.1.0
+date-released: "2026-10-03"
+license: MIT

@@ -1,0 +1,9 @@
+fno:
+  n_modes: 8
+  width: 16
+  n_layers: 2
+  n_input_channels: 2
+  n_output_channels: 2
+  learning_rate: 0.001
+mesh:
+  n_cells: 32

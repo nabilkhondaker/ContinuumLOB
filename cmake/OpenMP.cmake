@@ -1,0 +1,6 @@
+find_package(OpenMP)
+if(OpenMP_CXX_FOUND)
+  message(STATUS "OpenMP found: ${OpenMP_CXX_VERSION}")
+else()
+  message(STATUS "OpenMP not found; shared-memory parallelism disabled")
+endif()

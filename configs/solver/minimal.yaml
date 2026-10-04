@@ -1,0 +1,16 @@
+mesh:
+  x_min: -1.0
+  x_max: 1.0
+  n_cells: 64
+constitutive:
+  pressure_model: linear
+  c: 1.0
+  mu0: 0.02
+  viscosity_model: newtonian
+solver:
+  cfl: 0.3
+  t_final: 0.2
+  dt_max: 0.005
+  adaptive_dt: true
+  use_muscl: true
+boundary: zero_flux

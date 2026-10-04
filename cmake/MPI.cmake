@@ -1,0 +1,6 @@
+find_package(MPI)
+if(MPI_CXX_FOUND)
+  message(STATUS "MPI found")
+else()
+  message(STATUS "MPI not found")
+endif()

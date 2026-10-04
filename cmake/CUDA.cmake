@@ -1,0 +1,8 @@
+include(CheckLanguage)
+check_language(CUDA)
+if(CMAKE_CUDA_COMPILER)
+  enable_language(CUDA)
+  message(STATUS "CUDA enabled")
+else()
+  message(STATUS "CUDA compiler not found")
+endif()
